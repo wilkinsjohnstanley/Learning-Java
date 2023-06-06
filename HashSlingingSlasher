@@ -6,7 +6,8 @@ public class HashSlingingSlasher {
 		happy.put("a", 10);
 		happy.put("b", 5);
 		happy.put("c", 15);
-		
+		happy.remove("c", 15);
+		happy.replace("b", 20);
 		System.out.println(happy);
 
 	}
